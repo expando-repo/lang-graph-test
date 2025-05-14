@@ -6,5 +6,7 @@
     "agent": "./src/index.ts:app"
   },
   "env": ".env",
-  "auth": "./src/auth.ts"
+  "auth": {
+    "path": "./src/auth.ts:auth"
+  }
 }
